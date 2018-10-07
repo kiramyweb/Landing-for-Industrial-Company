@@ -10,7 +10,7 @@ class App extends Component {
         super(props);
 
         this.state = {
-            isContact: true
+            isContact: false
         };
 
         this.handleContactClick = this.handleContactClick.bind(this);
