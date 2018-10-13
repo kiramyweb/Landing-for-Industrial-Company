@@ -601,6 +601,7 @@
     }
 
     #feedbackContent {
+      overflow: hidden;
       width: 95%;
       display: flex;
       margin-bottom: 100px;
@@ -622,7 +623,7 @@
       #reviews {
         color: white;
         display: flex;
-        max-width: 500px;
+        width: 500px;
         flex-direction: column;
         justify-content: start;
         margin-right: 20px;
@@ -671,6 +672,11 @@
           p {
             margin: 0;
           }
+        }
+
+        @media (max-width: 700px) {
+          width: 95%;
+          margin-right: 0;
         }
       }
     }
