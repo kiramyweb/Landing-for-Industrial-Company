@@ -9,6 +9,7 @@ import CountUp from 'react-countup';
 import YouTube from 'react-youtube';
 import Slider from 'react-slick';
 
+
 const colourStyles = {
     control: styles => ({
         ...styles,
