@@ -71,6 +71,18 @@
       }
     }
   }
+
+  @media (max-width: 600px) {
+    #headerButtons{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      ul {
+        padding: 0;
+      }
+    }
+  }
 }
 
 
