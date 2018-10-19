@@ -127,13 +127,13 @@
     }
 
     @media (max-width: 1530px) {
-      &>div {
+      & > div {
         width: 70%;
       }
     }
 
     @media (max-width: 1050px) {
-      &>div {
+      & > div {
         width: 85%;
         margin: 0 15px;
 
@@ -146,7 +146,7 @@
     @media (max-width: 670px) {
       height: auto;
 
-      &>div {
+      & > div {
         margin: 40px 0;
         flex-direction: column;
         justify-content: center;
@@ -300,7 +300,7 @@
         align-items: center;
 
         #quoteDesk {
-          margin: 0 0 50px 0!important;
+          margin: 0 0 50px 0 !important;
 
           h3 {
             width: auto;
@@ -379,6 +379,12 @@
       #marketFeatures {
         width: 100%;
         justify-content: space-around;
+        p:first-of-type {
+          margin: 10px 0 0 0;
+        }
+        p:last-of-type {
+          margin: 7px 0 0 0;
+        }
       }
     }
 
@@ -462,7 +468,7 @@
 
     @media (max-width: 920px) {
       #facts {
-        &>div {
+        & > div {
           margin: 0 25px;
         }
       }
@@ -470,7 +476,7 @@
 
     @media (max-width: 810px) {
       #facts {
-        &>div {
+        & > div {
           margin: 0 15px;
         }
       }
@@ -483,7 +489,7 @@
         grid-template-rows: 1fr 1fr;
         margin: 30px 0 10px 0;
 
-        &>div {
+        & > div {
           margin: 0 7px;
         }
 
@@ -825,12 +831,19 @@
             color: gray;
           }
         }
-    }
+      }
     }
 
     @media (max-width: 1300px) {
       #posts {
         width: 100%;
+        .post {
+          .postHead {
+            .postLine {
+              margin: 0;
+            }
+          }
+        }
       }
     }
 
@@ -839,6 +852,7 @@
         flex-direction: column;
 
         .post {
+          text-align: center;
           max-width: initial;
           width: 65%;
           margin: 20px 0;

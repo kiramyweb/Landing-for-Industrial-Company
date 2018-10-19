@@ -19,8 +19,8 @@
     "react-dom": "^16.5.2"
   },
   "repository": {
-  	"type" : "git",
-  	"url" : "https://github.com/kiramyweb/Landing-for-Industrial-Company"
+    "type": "git",
+    "url": "https://github.com/kiramyweb/Landing-for-Industrial-Company"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
