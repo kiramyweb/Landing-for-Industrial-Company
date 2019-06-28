@@ -30,7 +30,8 @@
     background: linear-gradient(
                     rgba(0, 0, 0, 0.5),
                     rgba(0, 0, 0, 0.5)),
-    url("../img/header-bg.jpg") no-repeat;
+    url("../img/header-bg.jpg") center center no-repeat;
+    background-size: cover;
 
     h4, h1 {
       margin: 8px 0;
@@ -422,6 +423,7 @@
     background: linear-gradient(
                     rgba(0, 0, 0, 0.5),
                     rgba(0, 0, 0, 0.5)), url("../img/fact.jpg") no-repeat;
+    background-size: cover;
 
     #facts {
       width: 100%;
@@ -585,6 +587,7 @@
     background: linear-gradient(
                     rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)), url("../img/feedback-bg.jpg") no-repeat;
+    background-size: cover;
 
     .sectionHeader {
       margin-top: 120px;

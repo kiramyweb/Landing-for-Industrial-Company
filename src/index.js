@@ -10,4 +10,4 @@ import icons from "./icons";
 
 library.add(icons);
 
-ReactDOM.render(<App/>, document.getElementById("App"));
+ReactDOM.render(<App />, document.getElementById("App"));
